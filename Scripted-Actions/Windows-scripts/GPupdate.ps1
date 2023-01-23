@@ -1,1 +1,1 @@
-Invoke-GPUpdate -Computer RAPP.patriothomecare.onmicrosoft.com -RandomDelayInMinutes 0
+Invoke-GPUpdate -Computer RAPP -RandomDelayInMinutes 0
