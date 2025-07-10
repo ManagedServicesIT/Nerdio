@@ -8,5 +8,5 @@ This script installs Google Workspace Sync for Microsoft Outlook 4.3.6 via Choco
 # Install Chocolatey if it isn't already installed
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-# Install Adobe Reader DC
+# Install Google Sync for Outlook
 choco upgrade gsuite-sync-outlook -y
