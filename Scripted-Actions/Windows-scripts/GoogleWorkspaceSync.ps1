@@ -10,3 +10,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 # Install Google Sync for Outlook
 choco install gsuite-sync-outlook --force --ignore-checksums -y
+
+## added --ignore-checksums due to the checksum errors. May meed to remove from script
