@@ -13,4 +13,4 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 )
 
 # Install Google Sync for Outlook
-choco install gsuite-sync-outlook -y
+choco install gsuite-sync-outlook --force -y
