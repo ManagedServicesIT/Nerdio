@@ -12,4 +12,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 # Install Google Sync for Outlook
-choco install gsuite-sync-outlook --force -y
+choco install gsuite-sync-outlook --force --ignore-checksums -y
